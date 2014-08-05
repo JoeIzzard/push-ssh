@@ -34,7 +34,7 @@ The first step is to create the directory where your SSH keys and information wi
 
 Now you have a folder to store the information in, you will need generate the key. To do so run the following command:
 
-```ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C "Comment about this key"```
+```$ ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C "Comment about this key"```
 
 This will generate a key with 2048 bit for security. When asked for a password, you can choose to leave it blank or enter a password. If you wish to log into the remote computer without using a password, leave the password blank when asked.
 
@@ -45,7 +45,7 @@ Changelog
 
 Version | Features | Link
 --- | --- | ---
-1.1.0 | More robust code found at [Me in It](http://meinit.nl/distribute-ssh-keys-easily) which also sets permissions of directories and files | [Link](http://dl.izzard.me/Linux/push-ssh/push-ssh)
+1.1.0 | More robust code found at [Me in It](http://meinit.nl/distribute-ssh-keys-easily) which also sets permissions of directories and files | [Download](http://dl.izzard.me/Linux/push-ssh/push-ssh)
 1.0.0 | The first version of Push SSH | [Download](http://dl.izzard.me/Linux/push-ssh/archive/1.0.0)
 
 Code Author
