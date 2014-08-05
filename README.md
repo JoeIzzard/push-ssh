@@ -8,9 +8,9 @@ Installation
 
 To install the script you will need to run a few commands. These commands will download the script and move it to `/usr/bin/` so that it will run correctly. The commands are:
 
-```$ wget http://dl.izzard.me/Linux/push-ssh/push-ssh
-$ sudo mv push-ssh /usr/bin/
-$ sudo chmod +x /usr/bin/push-ssh```
+    $ wget http://dl.izzard.me/Linux/push-ssh/push-ssh
+    $ sudo mv push-ssh /usr/bin/
+    $ sudo chmod +x /usr/bin/push-ssh
 
 Once you have run these commands you can start using the script.
 
